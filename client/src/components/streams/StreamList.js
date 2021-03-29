@@ -11,12 +11,15 @@ class StreamList extends React.Component {
     if (stream.userId === this.props.currentUserId) {
       return (
         <div className="right floated content">
-          <Link to={`/streams/edit/${stream.id}`} className="ui button primary">
+          <Link
+            to={`/streams/edit/${stream.id}`}
+            className="ui right floated button "
+          >
             Edit
           </Link>
           <Link
             to={`/streams/delete/${stream.id}`}
-            className="ui button negative"
+            className="ui right floated negative basic button"
           >
             Delete
           </Link>
@@ -27,15 +30,18 @@ class StreamList extends React.Component {
   renderList() {
     return this.props.streams.map((stream) => {
       return (
-        <div className="item" key={stream.id}>
-          {this.renderAdmin(stream)}
+        <div className="large item" key={stream.id}>
           <i className="large middle aligned icon camera" />
           <div className="content">
             <Link to={`/streams/${stream.id}`} className="header">
               {stream.title}
             </Link>
-            <div className="description">{stream.description}</div>
+            <div class="meta">
+              <span>Description</span>
+            </div>
+            <div className="ui description">{stream.description}</div>
           </div>
+          {this.renderAdmin(stream)}
         </div>
       );
     });
@@ -44,8 +50,8 @@ class StreamList extends React.Component {
   renderCreate() {
     if (this.props.isSignedIn) {
       return (
-        <div style={{ textAlign: "right" }}>
-          <Link to="/streams/new" className="ui button primary">
+        <div>
+          <Link to="/streams/new" className="ui right floated button">
             Create Stream
           </Link>
         </div>
@@ -54,10 +60,12 @@ class StreamList extends React.Component {
   }
   render() {
     return (
-      <div>
-        <h2>Streams</h2>
-        <div className="ui celled list">{this.renderList()} </div>
-        {this.renderCreate()}
+      <div className="ui fluid container">
+        <div>
+          <h2 className="ui header">Streams</h2>
+          <div className="ui items">{this.renderList()} </div>
+          {this.renderCreate()}
+        </div>
       </div>
     );
   }

@@ -1,31 +1,37 @@
 {
   "streams": [
     {
-      "title": "g",
-      "description": "gggggggggggggggggg",
+      "title": "Lofi hip hop radio",
+      "description": "beats to relax/study. Thank you for listening, I hope you will have a good time here",
       "id": 1
     },
     {
-      "title": "Other ",
-      "description": "HI",
+      "title": "NPR Music Tiny Desk Concert ",
+      "description": "Watch Taylor Swift play The Man, Lover, Death by a Thousand Cuts and All Too Well at the Tiny Desk.",
       "id": 2
     },
     {
-      "title": "Updated",
-      "description": "updare",
+      "title": "CS:GO - G2 Esports vs. Natus Vincere [Dust2] Map 2 - Grand Finals - IEM Katowice 2021",
+      "description": "In today's matches at IEM Katowice: G2 Esports vs. Natus Vincere",
       "id": 3
     },
     {
-      "title": "gg",
-      "description": "ffffffffffff",
+      "title": "Creating your own streaming site.",
+      "description": "Guidelines for creating your own streaming service with React Redux, OBS and Real Time Messaging Server",
       "userId": "115553143160767690430",
       "id": 4
     },
     {
-      "title": "Stream",
-      "description": "streaming",
+      "title": "Butter Chicken Curry | Cooking is Chilling | ASMR Cooking |",
+      "description": "How to cook butter chicken curry",
       "userId": "115553143160767690430",
       "id": 5
+    },
+    {
+      "title": "Data Structures and Algorithms for Beginners",
+      "description": "Watch this tutorial to learn all about Big O, arrays and linked lists!",
+      "userId": "115553143160767690430",
+      "id": 6
     }
   ]
 }

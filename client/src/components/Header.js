@@ -4,15 +4,16 @@ import GoogleAuth from "./GoogleAuth";
 
 const Header = () => {
   return (
-    <div className="ui secondary pointing menu">
-      <Link to="/" className="item">
-        Streamy
-      </Link>
-      <div className="right menu">
-        <Link to="/" className="item">
-          All Stream
-        </Link>
-        <GoogleAuth />
+    <div className="ui inverted segment">
+      <div className="ui container">
+        <div className="ui huge inverted secondary pointing menu">
+          <Link to="/" className="huge active item ">
+            <i className="video camera icon"></i> BINH'S STREAMING SERVICE
+          </Link>
+          <div className="right menu">
+            <GoogleAuth />
+          </div>
+        </div>
       </div>
     </div>
   );
