@@ -10,25 +10,25 @@ I created my own live streaming service with React Redux, OBS, Real Time Messagi
 
 #### 1. See other people's streams when the user is not authenticated
 
-Homepage: (https://github.com/VoBinh32/streaming-app-with-react-redux/blob/main/static/img/unauthenticatedUserHome.JPG)
+![Login Page](https://github.com/VoBinh32/streaming-app-with-react-redux/blob/main/static/img/unauthenticatedUserHome.JPG)
 
-Watch: (https://github.com/VoBinh32/streaming-app-with-react-redux/blob/main/static/img/showLiveStream.JPG)
+![Login Page](https://github.com/VoBinh32/streaming-app-with-react-redux/blob/main/static/img/showLiveStream.JPG)
 
 #### 2. See other people's streams and can edit or delete user's own streams when the user is authenticated
 
-(https://github.com/VoBinh32/streaming-app-with-react-redux/blob/main/static/img/authenticatedUserHome.JPG)
+![Login Page](https://github.com/VoBinh32/streaming-app-with-react-redux/blob/main/static/img/authenticatedUserHome.JPG)
 
 #### 3. Be able to create a stream when autheticated
 
-(https://github.com/VoBinh32/streaming-app-with-react-redux/blob/main/static/img/addStreamForm.JPG)
+![Login Page](https://github.com/VoBinh32/streaming-app-with-react-redux/blob/main/static/img/addStreamForm.JPG)
 
 #### 4. Be able to edit your own stream.
 
-(https://github.com/VoBinh32/streaming-app-with-react-redux/blob/main/static/img/editStreamForm.JPG)
+![Login Page](https://github.com/VoBinh32/streaming-app-with-react-redux/blob/main/static/img/editStreamForm.JPG)
 
 #### 5. Be able to delete your own stream.
 
-(https://github.com/VoBinh32/streaming-app-with-react-redux/blob/main/static/img/deleteModal.JPG)
+![Login Page](https://github.com/VoBinh32/streaming-app-with-react-redux/blob/main/static/img/deleteModal.JPG)
 
 ## Getting Started
 
@@ -42,6 +42,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 - Install
+- OBS
 - React Redux
 - FLV
 - JSON server
