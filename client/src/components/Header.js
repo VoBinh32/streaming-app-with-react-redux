@@ -4,7 +4,7 @@ import GoogleAuth from "./GoogleAuth";
 
 const Header = () => {
   return (
-    <div className="ui inverted segment">
+    <div className="ui big inverted segment">
       <div className="ui container">
         <div className="ui huge inverted secondary pointing menu">
           <Link to="/" className="huge active item ">
