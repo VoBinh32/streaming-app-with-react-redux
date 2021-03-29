@@ -54,3 +54,8 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installing
 
 - "npm install" to install all the dependencies that help the app running.
+
+### Read More About RTMP/HTTP-FLV/fly.js
+
+https://github.com/bilibili/flv.js
+https://github.com/illuspas/Node-Media-Server
