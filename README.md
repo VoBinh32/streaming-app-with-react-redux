@@ -4,13 +4,17 @@ I created my own live streaming service with React Redux, OBS, Real Time Messagi
 
 ## App Outline
 
-(https://github.com/VoBinh32/streaming-app-with-react-redux/blob/main/static/img/streaming.png)
+![Login Page](https://github.com/VoBinh32/streaming-app-with-react-redux/blob/main/static/img/streaming.png)
 
 ## App Usage
 
 #### 1. See other people's streams when the user is not authenticated
 
+##### Homepage
+
 ![Login Page](https://github.com/VoBinh32/streaming-app-with-react-redux/blob/main/static/img/unauthenticatedUserHome.JPG)
+
+##### If you click into one of the streams, you can watch now!
 
 ![Login Page](https://github.com/VoBinh32/streaming-app-with-react-redux/blob/main/static/img/showLiveStream.JPG)
 
